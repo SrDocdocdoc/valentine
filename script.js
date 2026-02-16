@@ -54,16 +54,16 @@
 })();
 */
 const messages = [
-    "Are you sure?",
-    "Really sure??",
-    "Are you positive?",
-    "Pookie please...",
-    "Just think about it!",
-    "If you say no, I will be really sad...",
-    "I will be very sad...",
-    "I will be very very very sad...",
-    "Ok fine, I will stop asking...",
-    "Just kidding, say yes please! ❤️"
+    "Certeza?",
+    "Certeza Certeza??",
+    "Tipo… absoluta certeza?",
+    "Olha que isto é uma decisão importante 👀",
+    "Última oportunidade de dizer ‘Sim!’ 😇",
+    "Ok…calma... mas pensa bem…",
+    "Rita... anda lá 😢",
+    "Já ninguém clica tantas vezes em ‘Não’ sem querer!",
+    "Então é para ser assim é?",
+    "Grande Pota ..."
 ];
 
 let messageIndex = 0;
@@ -79,4 +79,5 @@ function handleNoClick() {
 
 function handleYesClick() {
     window.location.href = "yes_page.html";
+
 }
